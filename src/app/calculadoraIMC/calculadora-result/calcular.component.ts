@@ -18,7 +18,7 @@ export class CalcularIMCComponent{
        let alt = this.altura;
        let pes = this.peso;
 
-       this.imc = this.peso / (this.altura * this.altura) //peso dividido pela altura ao quadrado
+       this.imc = this.peso / (this.altura ** 2) //peso dividido pela altura ao quadrado
        alert(this.imc);
 
        return this.imc;
